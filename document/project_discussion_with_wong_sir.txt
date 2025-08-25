@@ -1,0 +1,99 @@
+=====================
+NOW
+=====================
+<BASIC>
+all done
+
+<COMPLETED>
+1. Passport (middleware)
+2. Authetication (middleware)
+3. Validator (node.js)
+4. Mongoose
+5. Email (nodemailer)
+6. Payment (money and trainer booking days)
+7. QRCode
+
+<PENDING>
+1. Superuser (BE feature)
+2. Reporting - database queries
+3. Promotional email based on generated reports
+4. Upload files (multer)
+5. Light/Dark mode (FE feature)
+6. Excel
+
+=====================
+Date: 20250818
+=====================
+Email (extra) (OK, 33 marks including email)
+
+middleware/session (extra)
+mongoose (extra)
+
+FE Validator (extra) [see Date: 20250819]
+Gmail/Facebook login using OAuth2 (extra)
+passport (extra) [see Date: 20250819]
+
+face-api.js (facial login)
+
+database model + validation (basic)
+handsome FE (basic)
+MongoDB (basic) - Mongoose
+Dataset (basic)
+
+CRUD (basic)
+API  express (basic)
+
+structure diagram (basic)  ?????
+
+A. superuser (ok, 1 person as superusers)
+B. Reporting (ok, under superuser's task)
+C. Trainer - upload (FE, ok or not) - investigate
+D. Promotional email, (OK, B -> D) 
+E. Payment (OK, no final payment, low priority) --> basic (8), vip (24), premium (16) - investigate
+F. Light/dark mode FE (investigate)
+
+Basic (8 days, monthly payment $80)
+book 1 day, 8 -> 7
+QRCode
+Excel
+
+
+======================================
+THIRD PARTY PACKAGES
+======================================
+=====================
+Date: 20250819
+=====================
+Login session [Middleware] + Authetication + Validator  
+(a) “Passport JS” + (b) “Authetication strategy” + (c) node.js's "Validator"
+https://medium.com/@prashantramnyc/node-js-with-passport-authentication-simplified-76ca65ee91e5
+https://medium.com/@prashantramnyc/how-to-implement-google-authentication-in-node-js-using-passport-js-9873f244b55e
+https://medium.com/swlh/node-and-passport-js-facebook-authentication-76cbfa903ff3
+https://www.npmjs.com/package/validator
+=====================
+Date: 20250821
+=====================
+Email + File upload
+(a) Email [nodemailer] + (b) upload files [multer]
+https://www.w3schools.com/nodejs/nodejs_email.asp
+https://nodemailer.com/
+https://medium.com/@y.mehnati_49486/how-to-send-an-email-from-your-gmail-account-with-nodemailer-837bf09a7628
+https://bytearcher.com/articles/formidable-vs-busboy-vs-multer-vs-multiparty/
+https://www.npmjs.com/package/multer
+=====================
+Date: 20250822
+=====================
+UML + Final Project Deliverables
+http://www.ir.juit.ac.in:8080/jspui/bitstream/123456789/10248/1/Yadey-A Social Media Web App.pdf
+IMPORTANT IMPORTANT IMPORTANT
+  ---------- MUST DO ----------
+  Deliverables (5 items)
+  1. source code, 2. powerpoint, 3. written report, 4. database sample, 5. readme file (MUST BE RUNNABILITY)
+  .env google password special handling by providing a "Removable USB drive" with .env file with google app password
+  ---------- MUST DO ----------
+IMPORTANT IMPORTANT IMPORTANT
+
+
+
+
+
