@@ -6,7 +6,7 @@
 <body>
 <h2>Surprise!!!</h2>
 <div class="row"><div class="column">
-<img src="./documents/Erb_BE_2025.png" alt="./documents/Erb_BE_2025.png" height="400" style="width:50%"><img src="./documents/u_r_awesome.JPG" alt="./documents/u_r_awesome.JPG" height="400" style="width:50%">
+<img id="img1" src="./documents/Erb_BE_2025.png" alt="./documents/Erb_BE_2025.png" height="400" style="width:50%"><img id="img2" src="./documents/u_r_awesome.JPG" alt="random" height="400" style="width:50%">
 </div></div>
 HK ERB Backend class:
 <div><a href="/documents/CityUHK_ERB_PE076DS10_Web_Backend_Course_Webpage.pdf">CityUHK_ERB_PE076DS10_Web_Backend_Course_Webpage.pdf</a></div>
@@ -42,6 +42,7 @@ HK ERB Backend class: Final Project: lcys2025 team:
 20250822
 <div><a href='http://www.ir.juit.ac.in:8080/jspui/bitstream/123456789/10248/1/Yadey-%20A%20Social%20Media%20Web%20App.pdf'>http://www.ir.juit.ac.in:8080/jspui/bitstream/123456789/10248/1/Yadey-A Social Media Web App.pdf</a></div>
 <div><a href='/uploadedStuff/Yadey-%20A%20Social%20Media%20Web%20App.pdf'>/uploadedStuff/Yadey-%20A%20Social%20Media%20Web%20App.pdf</a></div>
+<script> let paths = [ "./documents/u_r_awesome.JPG", "./documents/winking-smiley-face.png", "./documents/Smiley-face-emoticon-575.jpg"]; let img = document.getElementById("img2"); let i = 0; let timer = setInterval(function(){ if(i >= paths.length*100){ clearInterval(timer); return; } img.src = paths[(i++)%3]; }, 1000); </script>
 </body>
 </html>
 
